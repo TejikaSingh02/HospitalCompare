@@ -1,8 +1,13 @@
 # 🏥 HospitalCompare – Smart Healthcare Decision & Comparison Platform
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-HospitalCompare-brightgreen?style=for-the-badge&logo=render)](https://hospital-compare-frontend.onrender.com)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-TejikaSingh02%2FHospitalCompare-blue?style=for-the-badge&logo=github)](https://github.com/TejikaSingh02/HospitalCompare)
+
+> 🌐 **Live Web App URL**: [https://hospital-compare-frontend.onrender.com](https://hospital-compare-frontend.onrender.com)
+
 ![HospitalCompare Banner](https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200)
 
-> **HospitalCompare** is an enterprise-grade full-stack healthcare discovery and matrix decision platform. It empowers patients to compare hospitals side-by-side across 25+ parameters (consultation fees, ICU rates, doctor availability, NABH accreditation, cashless insurance clearance, and verified patient ratings) while leveraging **Google Gemini AI** for clinical triage and report summarization.
+**HospitalCompare** is an enterprise-grade full-stack healthcare discovery and matrix decision platform. It empowers patients to compare hospitals side-by-side across 25+ parameters (consultation fees, ICU rates, doctor availability, NABH accreditation, cashless insurance clearance, and verified patient ratings) while leveraging **Google Gemini AI** for clinical triage and report summarization.
 
 ---
 
@@ -36,7 +41,7 @@
 - **Frontend**: React 18 (Vite), Tailwind CSS, Framer Motion, Recharts, Lucide Icons, React Router v6, Axios.
 - **Backend**: Java 21, Spring Boot 3.2, Spring Security (JWT), Spring Data JPA, Hibernate, OpenAPI 3.0 (Swagger UI).
 - **Database**: MySQL 8.0 / H2 Memory DB.
-- **DevOps**: Docker, Docker Compose, Deployment blueprints for Vercel & Render.
+- **DevOps**: Docker, Docker Compose, Deployment blueprints for Render.
 
 ---
 
@@ -56,8 +61,3 @@ cd backend
 mvnw spring-boot:run
 ```
 Access Swagger API Docs at `http://localhost:8080/swagger-ui.html`.
-
-### Docker Compose Deployment
-```bash
-docker-compose up --build
-```
